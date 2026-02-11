@@ -89,7 +89,7 @@ Returns the order or HTTP 404 with:
 - **`com.sun.net.httpserver.HttpServer`** — for HTTP (built into the JDK)
 - **JSON handling** — write a minimal hand-rolled JSON utility (no Gson/Jackson). Keep it simple: only handle flat objects and arrays of flat objects.
 - **In-memory storage only** — no databases, no files
-- Each module must be runnable via `mvn -pl <module> exec:java`
+- Each module must be runnable via `mvn -pl <module> clean compile exec:java`
 
 ---
 
